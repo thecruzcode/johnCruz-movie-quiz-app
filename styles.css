@@ -136,7 +136,7 @@ header {
 ul li{
     list-style-type: none;
     position: relative;
-    left: 70px;
+    left: -2px;
     line-height: 30px;
     display: inline;
     margin-right: 10px;
@@ -151,14 +151,14 @@ ul li{
 
 h3 {
     position: absolute;
-    left: 276px;
+    left: 260px;
     top: 47px;
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
     color:#fbf7f5
 }
 
-.submitButton-nextButton {
+.submitButton {
     position: absolute;
     top: 339px
 }
@@ -172,3 +172,57 @@ h3 {
     color:#fbf7f5;
     font-size: 23px;
 }
+
+/*pg3 styling */
+
+h4 {
+    position: absolute;
+    left: 234px;
+    top: 127px;
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5
+}
+
+.correctAnswer {
+    font-size: 45px;
+}
+
+.nextButton {
+    position: absolute;
+    top: 339px
+}
+
+/*pg4 styling */
+
+.wrongAnswer {
+    position: absolute;
+    left: 248px;
+    top: 127px;
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5;
+    font-size: 45px;
+}
+
+.revealCorrectAnswer {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fbf7f5;
+    font-size: 25px;
+    position: absolute;
+    top: 225px;
+    left: 229px;
+    font-weight: bold;
+}
+
+/*pg5 styling */
+
+.winner {
+    position: absolute;
+    left: 259px;
+    top: 167px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5
+}
+
