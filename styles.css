@@ -148,3 +148,27 @@ ul li{
 }
 
 /* below pg2 CSS styles */
+
+h3 {
+    position: absolute;
+    left: 276px;
+    top: 47px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5
+}
+
+.submitButton-nextButton {
+    position: absolute;
+    top: 339px
+}
+
+.questionList {
+    position: absolute;
+    left: 346px;
+    top: 115px;
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5;
+    font-size: 23px;
+}
