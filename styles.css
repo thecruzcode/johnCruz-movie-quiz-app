@@ -57,6 +57,7 @@ main {
     top: 110px;
     left: 300px;
     border-radius: 5px;
+    border: 1px black solid;
 }
 
 .choices {
@@ -130,6 +131,7 @@ header {
 .col-8 {
     position: relative;
     top: 90px;
+    left: 30px;
 }
 
 
@@ -217,6 +219,17 @@ h4 {
 
 /*pg5 styling */
 
+.failed {
+    position: absolute;
+    left: 259px;
+    top: 167px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    color:#fbf7f5
+}
+
+/*pg6 styling */
+
 .winner {
     position: absolute;
     left: 259px;
@@ -225,4 +238,11 @@ h4 {
     font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
     color:#fbf7f5
 }
+
+@media screen and (max-width: 1190px){
+    
+}
+
+
+
 
