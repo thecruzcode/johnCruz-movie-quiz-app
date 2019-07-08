@@ -190,21 +190,23 @@ h4 {
     font-size: 45px;
 }
 
-.nextButton {
+/*pg4 styling */
+
+.wrongButton {
     position: absolute;
     top: 339px
 }
 
-/*pg4 styling */
-
-.wrongAnswer {
+.wrongNextButton{
     position: absolute;
-    left: 248px;
-    top: 127px;
-    font-size: 45px;
-    font-family: 'Source Sans Pro', sans-serif;font-family: 'Source Sans Pro', sans-serif;
-    color:#fbf7f5;
-    font-size: 45px;
+    top: 240px;
+    left: 587px;
+    font-size: 28px;
+    width: 250px;
+    height: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 8px;
+    background-color: #fffff0;
 }
 
 .revealCorrectAnswer {
@@ -212,7 +214,7 @@ h4 {
     color: #fbf7f5;
     font-size: 25px;
     position: absolute;
-    top: 225px;
+    top: 206px;
     left: 229px;
     font-weight: bold;
 }
@@ -240,7 +242,7 @@ h4 {
 }
 
 @media screen and (max-width: 1190px){
-    
+
 }
 
 
